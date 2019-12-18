@@ -1,0 +1,4 @@
+{
+	"discord_gateway_host": "wss://gateway.discord.gg",
+	"discord_api_host": "discordapp.com"
+}

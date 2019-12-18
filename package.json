@@ -1,0 +1,36 @@
+{
+  "name": "discordia",
+  "version": "0.0.1",
+  "description": "A very simple discord client",
+  "main": "discordia.js",
+  "scripts": {
+    "test": "mocha ./test --exist",
+    "serve": "node ./test/live.js"
+  },
+  "keywords": [
+    "discord",
+    "client",
+    "api"
+  ],
+  "author": "Jo Colina <jo@jocolina.com>",
+  "license": "MIT",
+  "dependencies": {
+    "argumentate": "^2.0.0",
+    "fishingrod": "^4.1.0",
+    "redfox": "^0.2.0",
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmrcaga/discordia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsmrcaga/discordia/issues"
+  },
+  "homepage": "https://github.com/jsmrcaga/discordia#readme"
+}
