@@ -1,6 +1,6 @@
 {
-  "name": "discordia",
-  "version": "0.0.1",
+  "name": "@jsmrcaga/discord",
+  "version": "0.0.3",
   "description": "A very simple discord client",
   "main": "discordia.js",
   "scripts": {

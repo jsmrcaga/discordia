@@ -1,4 +1,4 @@
-# Discordia
+# @jsmrcaga/discord
 
 _Very_ simple Discord messaging client.
 
@@ -8,11 +8,15 @@ _Very_ simple Discord messaging client.
 * [Events](https://discordapp.com/developers/docs/topics/gateway#commands-and-events-gateway-events)
 
 ```js
-const discordia = require('discordia');
+const discord = require('@jsmrcaga/discord');
 
 // Executes `Identify` command on its own
 // Handles `Resume`, `Heartbeat` automatically
-let bot = new discordia({});
+let bot = new discord({
+	identify: {
+		token: '<your bot token>'
+	}
+});
 
 // GENERIC
 bot.on('connected', () => {
